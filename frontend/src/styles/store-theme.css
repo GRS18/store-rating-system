@@ -1,0 +1,107 @@
+/* Store Rating System - Unified Theme */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2, h3, h4 {
+  color: #2c3e50;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #219150;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #e1e1e1;
+  border-radius: 6px;
+}
+
+label {
+  font-weight: bold;
+}
+
+nav {
+  background: #2c3e50;
+  padding: 10px 20px;
+  color: white;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header, footer {
+  background: #34495e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.page-header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  input, button, select {
+    font-size: 0.9rem;
+  }
+}
